@@ -33,4 +33,3 @@ You do not need to do anything!
 It will install Python Add-on, create new virtual environment, and install Python dependencies for you automaically.
 You can review devcontainer.json and DockerFile in ./devcontainer folder for more details.
 
-![Open in Codespaces](https://classroom.github.com/assets/open-in-codespaces-abfff4d4e15f9e1bd8274d9a39a0befe03a0632bb0f153d0ec72ff541cedbe34.svg)
