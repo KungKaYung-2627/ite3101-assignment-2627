@@ -12,7 +12,8 @@ credentials = service_account.Credentials.from_service_account_file(
 # https://cloud.google.com/storage/docs/hosting-static-website#storage-create-bucket-code_samples
 
 
-def create_static_website_cloud_storage_bucket_if_not_exit(bucket_name: str):       
+def create_static_website_cloud_storage_bucket_if_not_exit(bucket_name: str):
+    storage_clinet = st       
     pass
 
 def upload_text_to_bucket(bucket_name: str, path_name: str, content: str, content_type: str = "text/html"):
