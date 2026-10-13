@@ -13,7 +13,7 @@ credentials = service_account.Credentials.from_service_account_file(
 
 
 def create_static_website_cloud_storage_bucket_if_not_exit(bucket_name: str):
-    storage_clinet = st       
+    storage_clinet = storage.client(credentials=credentials)       
     pass
 
 def upload_text_to_bucket(bucket_name: str, path_name: str, content: str, content_type: str = "text/html"):
